@@ -7,8 +7,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=
-Patua+One&family=Roboto&family=Sofia+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Patua+One&family=Roboto&family=Sofia+Sans&display=swap" rel="stylesheet">
     <title>John Vinas</title>
     <link rel="shortcut icon" href="images/flag.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d430333564.js" crossorigin="anonymous" defer></script>
@@ -19,7 +18,7 @@ Patua+One&family=Roboto&family=Sofia+Sans&display=swap" rel="stylesheet">
 <body>
     <header>
         <div class="title-bar">
-            <image id="logo" src="images/flag.jpg">
+            <img id="logo" src="images/flag.jpg" alt = "flag">
                 <p>John Vinas, CISA, CIA, CTP</p>
         </div>
         <nav class="navbar">
@@ -30,32 +29,36 @@ Patua+One&family=Roboto&family=Sofia+Sans&display=swap" rel="stylesheet">
 
     </header>
     <main>
-        <h1>Contact Page</h1>
-        <section id="contact">
-            <fieldset id="contact-form" legend="contact-form">
-                <legend>Please reach out to me!</legend>
-                <form action="">
-                    <label for="email">email address</label>
-                    <br>
-                    <input type="email" id="email"> 
-                    <br>
-                    <label for="comments">comments</label>
-                    <br>
-                    <textarea name="comments" id="comments" cols="27" rows="10"></textarea>
-                    <br>
-                    <button type="email">send email</button>
+        <section class="contact">
+            <h1 id="contact-heading" class="heading">Contact Page</h1>
+
+            <div id="contact">
+                <form action="#">
+                    <fieldset id="contact-form">
+                        <legend>Please reach out to me!</legend>
+                        <label for="email">email address</label>
+                        <br>
+                        <input type="email" id="email">
+                        <br>
+                        <label for="comments">comments</label>
+                        <br>
+                        <textarea name="comments" id="comments" cols="27" rows="10"></textarea>
+                        <br>
+                        <input type="submit">
+                    </fieldset>
                 </form>
-            </fieldset>
+            </div>
         </section>
+
     </main>
     <footer>
-        <section id="footer">
+        <div id="footer">
             <div id="social-media">
-            <a href="https://www.facebook.com"><img src="images/facebook.png"></a>
-            <a href="https://www.instagram.com"><img src="images/IG-logo.png"></a>
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt = "Facebook"></a>
+            <a href="https://www.instagram.com"><img src="images/IG-logo.png" alt ="Instagram"></a>
             </div>
-            <p>&copy John Vinas, CISA, CIA, CTP 2023</p>
-            </section>
+            <p>&copy; John Vinas, CISA, CIA, CTP 2023</p>
+        </div>
     </footer>
 </body>
 
